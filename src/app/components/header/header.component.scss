@@ -1,0 +1,43 @@
+#header {
+  background: #cdf7ff;
+  position: relative;
+  z-index: 1;
+  
+
+  img {
+    width: 25%;
+    border-radius: 50%;
+  }
+
+  p {
+    font-weight: 500;
+  }
+
+  .bg-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-image: url("/assets/images/bg-1.jpg");
+    background-size: 10%;
+    opacity: 0.2;
+  }
+}
+
+@media (max-width: 428px) {
+  #header {
+    img {
+      width: 40%;
+    }
+
+    h4 {
+      font-size: 1rem;
+    }
+
+    p {
+      font-size: 0.75rem;
+    }
+  }
+}

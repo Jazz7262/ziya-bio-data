@@ -1,0 +1,30 @@
+#photos-carousel {
+  padding: 3rem 5rem;
+
+  img {
+    border: 2px solid;
+  }
+}
+
+#photos-full-view-carousel {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100vw;
+  height: 100vh;
+  padding: 3rem;
+  background-color: black;
+
+  img {
+    border: 2px solid;
+  }
+
+  .close-btn {
+    color: white;
+    position: absolute;
+    top: 2.5rem;
+    right: 2.5rem;
+    transform: scale(1.5);
+  }
+}
