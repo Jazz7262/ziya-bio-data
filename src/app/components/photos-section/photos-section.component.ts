@@ -9,7 +9,7 @@ import { MatIconModule } from '@angular/material/icon';
 })
 export class PhotosSectionComponent {
   photos = [0, 1, 2, 3, 4, 5, 6];
-  fullView: boolean = true;
+  fullView: boolean = false;
 
   toggleFullView() {
     this.fullView = !this.fullView;
