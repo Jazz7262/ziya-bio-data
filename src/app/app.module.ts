@@ -11,6 +11,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { ProfessionalInsightsComponent } from './components/professional-insights/professional-insights.component';
+import { IslamicInsightsComponent } from './components/islamic-insights/islamic-insights.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { ProfessionalInsightsComponent } from './components/professional-insight
     PersonalDetailsComponent,
     PhotosSectionComponent,
     ProfessionalInsightsComponent,
+    IslamicInsightsComponent,
   ],
   imports: [
     BrowserModule,

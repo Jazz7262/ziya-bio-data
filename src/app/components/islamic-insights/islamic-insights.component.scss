@@ -1,0 +1,33 @@
+#islamic-insights {
+  padding: 3rem;
+
+  h4 {
+    color: #002c6a;
+  }
+
+  p {
+    margin-bottom: 0.5rem;
+
+    span {
+      visibility: hidden;
+    }
+  }
+
+  li {
+    color: #000428;
+  }
+}
+
+@media (max-width: 428px) {
+  #islamic-insights {
+    padding: 0rem 1.5rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 0.75rem;
+  }
+}
