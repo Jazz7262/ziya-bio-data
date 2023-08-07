@@ -10,6 +10,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
+import { ProfessionalInsightsComponent } from './components/professional-insights/professional-insights.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { MatIconModule } from '@angular/material/icon';
     HeaderComponent,
     PersonalDetailsComponent,
     PhotosSectionComponent,
+    ProfessionalInsightsComponent,
   ],
   imports: [
     BrowserModule,

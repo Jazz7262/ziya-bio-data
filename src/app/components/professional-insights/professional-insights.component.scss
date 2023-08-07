@@ -1,0 +1,26 @@
+#professional-insights {
+  padding: 0rem 3rem;
+
+  p.heading {
+    font-weight: 500;
+  }
+
+  img {
+    width: 70%;
+    border: 2px solid;
+  }
+}
+
+@media (max-width: 428px) {
+  #professional-insights {
+    padding: 0rem 1.5rem;
+
+    h4 {
+      font-size: 1rem;
+    }
+
+    p {
+      font-size: 0.75rem;
+    }
+  }
+}
