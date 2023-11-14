@@ -1,5 +1,5 @@
-<ng-container ng-if="!showContent">
-<div class="hidden-section d-flex justify-content-center align-items-center">
+<ng-container *ngIf="!showContent">
+<div class="hidden-section d-flex flex-column justify-content-center align-items-center">
   <span class="mb-5">
     Alhamdulillaah, I am blessed with my best match.
   </span>
@@ -14,7 +14,7 @@
 </div>
 </ng-container>
 
-<ng-container ng-if="showContent">
+<ng-container *ngIf="showContent">
 <app-header></app-header>
 
 <div class="row">
