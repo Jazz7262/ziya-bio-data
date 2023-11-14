@@ -1,0 +1,14 @@
+.hidden-section {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.hidden-button {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  background-color: transparent;
+}
